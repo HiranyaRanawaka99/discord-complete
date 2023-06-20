@@ -9,7 +9,6 @@
 html, body {
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
-    line-height: 1.5rem;
 }
 
 header {
@@ -35,9 +34,24 @@ li {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     padding: 8rem 0rem 3rem 0rem;
 }
+
+h2 {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+h3 {
+    padding-bottom: 1rem;
+    margin-top: -1rem;
+}
+
 
 
 /*UTILS*/
@@ -82,6 +96,27 @@ a.link,
     text-align: center;
 }
 
+.wall.m-5-rem {
+    margin: 5.5rem;
+}
+
+.case.w-1000{
+    width: 1000px;
+}
+
+img.h-350{
+    height: 350px;
+}
+
+.sm-box {
+    width: 400px;
+    line-height: 1rem;
+    padding: 0 5rem;;
+}
+
+.stars {
+    height: 2rem;;
+}
 
 /*BUTTONS*/
 
@@ -108,6 +143,12 @@ div.button {
 .btn.bg-black {
     background-color: black;
     padding:0.8rem 1rem;
+}
+
+.btn.bg-liliac {
+    background-color: #8EA1E1;
+    color:white;
+    padding:0.5rem 1rem;
 }
 
 /*FLEX-BOX*/
