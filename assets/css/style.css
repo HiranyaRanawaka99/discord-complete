@@ -16,6 +16,10 @@ header {
     padding-top: 1rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 ul.list {
     list-style: none;
@@ -35,6 +39,7 @@ h1 {
     padding: 8rem 0rem 3rem 0rem;
 }
 
+
 /*UTILS*/
 
 header,
@@ -51,8 +56,7 @@ header,
     max-width: 7rem;
 }
 
-.box {
-    width: 600px;
+.margin-auto {
     margin-left: auto;
     margin-right: auto;
 }
@@ -71,14 +75,10 @@ a.link,
 
 }
 
-
 .t-align-center {
     text-align: center;
 }
 
-.case {
-    max-width: 100%;
-}
 
 /*BUTTONS*/
 
@@ -126,6 +126,10 @@ div.button {
 
 .flex.space-around {
     justify-content: space-around;
+}
+
+.flex.row-reverse {
+    flex-direction:row-reverse;
 }
 
 .f-end {

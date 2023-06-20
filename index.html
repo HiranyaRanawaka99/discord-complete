@@ -34,7 +34,7 @@
 
     <!-- # JUMBOTRON -->
     <section class="jumbotron">
-      <div class="box t-align-center">
+      <div class="box margin-auto t-align-center">
         <h1>Il tuo posto per parlare</h1>
         <p>
           Che tu faccia parte di un club scolastico, gruppo di gamer, comunità
@@ -64,7 +64,7 @@
       </section>
 
       <section class="wall flex">
-        <div class="case flex justify-center align-center">
+        <div class="case flex align-center row-reverse">
           <div class="sm-box">
             <img src="assets/img/item2.svg">
           </div>
@@ -75,38 +75,99 @@
       </section>
 
       <section class="wall flex">
-        <div class="case flex justify-center align-center">
-          <div class="lg-box">
+        <div class="case flex align-center">
+          <div class="sm-box">
             <img src="assets/img/item3.svg">
           </div>
-          <div class="sm-box">
+          <div class="lg-box">
             <h2>Da pochi a un fandom</h2>
             <p>Dai inizio a una communty di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.</p>
           </div>
       </section>
 
-      <section class="basement flex h-1000 bg-gray justify-center align-center">
-        <div class="square bg-green h-800 w-50-100"></div>
+      <section class="basement flex align-center">
+        <div class="square">
+            <h2>Teconologia affidabile per tenersi in contatto</h2>
+            <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in straming, o riunitevi in una sessione di disegno con la condivisione schermo</p>
+            <img src="assets/img/item4-big.svg">
+        <div class="margin-auto">
+            <img src="assets/img/stars.svg">
+            <h3>Pronto a iniziare la tua avventura?</h3>
+            <button><i class="fa-sharp fa-solid fa-arrow-down"></i>Scarica per Mac</button>
+        </div>
+        </div>
       </section>
     </main>
 
+    <!--FOOTER-->
+
     <footer>
-      <section class="foundation flex h-600 bg-black">
-        <div class="brick flex w-100-100 h-500 justify-center align-center">
-          <div class="lg-col w-30-100 h-500 bg-salmon"></div>
-          <div class="col-1 w-5-100 h-500 bg-teal"></div>
-          <div class="col-2 w-5-100 h-500 bg-teal"></div>
-          <div class="col-3 w-5-100 h-500 bg-teal"></div>
-          <div class="col-2 w-5-100 h-500 bg-teal"></div>
+      <section class="foundation">
+        <div class="brick flex justify-center align-center">
+          <div class="lg-col">
+            <h3>Il tuo posto per parlare</h3>
+            <img src="assets/img/ita.png" alt="italian-flag">
+            <form>
+                <label for="lang"></label>
+                <select>
+                    <option value="italiano">Italiano</option>
+                    <option value="english">English</option>
+                    <option value="deutsch">Deutsch</option>
+                </select> 
+            </form>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="col-1">
+            <ul>
+                <li><span>Prodotto</span></li>
+                <li>Scarica</li>
+                <li>Perché Discord</li>
+                <li>Nitro</li>
+                <li>Sicurezza</li>
+                <li>Assistenza</li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <li><span>Compagnia</span></li>
+            <li>Chi siamo</li>
+            <li>Lavora con noi</li>
+            <li>Marchio</li>
+            <li>Redazione</li>
+            <li>Negozio</li>
+          </div>
+          <div class="col-3">
+            <li><span>Scarica</span></li>
+                <li>Perché Discord</li>
+                <li>Nitro</li>
+                <li>Sicurezza</li>
+                <li>Assistenza</li>
+                <li>Scarica</li>
+                <li>Perché Discord</li>
+                <li>Nitro</li>
+                <li>Sicurezza</li>
+                <li>Assistenza</li>
+
+          </div>
+          <div class="col-2">
+            <li>Scarica</li>
+                <li>Perché Discord</li>
+                <li>Nitro</li>
+                <li>Sicurezza</li>
+                <li>Assistenza</li>
+          </div>
         </div>
       </section>
+
       <hr />
-      <section class="ground flex h-100 f-end justify-center bg-black">
+      <section class="ground flex">
         <div
-          class="case flex end space-between align-center h-50 w-50-100 bg-teal"
-        >
-          <img src="#" />
-          <button>button</button>
+          class="case flex end space-between align-center">
+          <img src="assets/img/logo.svg" alt="logo" type="svg" class="logo" />
+          <button>Registrati</button>
         </div>
       </section>
     </footer>
