@@ -56,6 +56,10 @@ header,
     max-width: 7rem;
 }
 
+.box {
+    width: 600px;
+}
+
 .margin-auto {
     margin-left: auto;
     margin-right: auto;
@@ -71,7 +75,6 @@ a.link,
 .jumbotron {
     background-image: url('../img/jumbo.png');
     background-size: cover;
-    min-height: 200px;
 
 }
 
