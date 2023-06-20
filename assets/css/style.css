@@ -1,108 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 0.8rem;
+}
+
+html, body {
+    font-family: 'Outfit', sans-serif;
 }
 
 header {
-    background-color: aqua;
-    min-height: 50px;
-    display: flex;
+    background-color: #416FE3;
 }
 
-ul {
+ul.list {
     list-style: none;
+}
+
+a.link {
+    text-decoration: none;
+    color: white;
 }
 
 li {
     display: inline;
-}
-
-/*DEBUG*/
-
-.w-5-100 {
-    width: 5%;
-}
-
-.w-20-100 {
-    width: 20%;
-}
-
-.w-30-100 {
-    width: 30%;
-}
-
-.w-35-100 {
-    width: 35%;
-}
-
-.w-50-100 {
-    width: 50%;
-}
-
-.w-100-100 {
-    width: 100%;
-}
-
-.h-100 {
-    min-height: 100px;
-}
-
-.h-250 {
-    min-height: 250px;
-}
-
-.h-300 {
-    min-height: 300px;
-}
-
-.h-400 {
-    min-height: 400px;
-}
-
-.h-500 {
-    min-height: 500px;
-}
-
-.h-600 {
-    min-height: 600px;
-}
-
-.h-800 {
-    min-height: 800px;
-}
-
-.h-1000 {
-    min-height: 1000px
-}
-
-
-.h-50 {
-    height: 50px;;
+    padding: 1rem;
 }
 
 /*UTILS*/
+
+
+.container {
+    width: 1000px;
+
+    background-color: 416FE3; 
+    color: white;
+}
+
+.logo{
+    max-width: 7rem;
+}
+
+.btn {
+    background-color: white;
+    border-style: none;
+
+    border-radius: 1rem;
+    padding: 0.5rem;
+
+}
 
 .flex {
     display: flex;
 }
 
-.container {
-    display: flex;
-    min-height: 25px;
-
-    background-color: goldenrod;
-}
-
-.justify-center {
+.flex.justify-center {
     justify-content: center;
 }
 
-.align-center {
+.flex.align-center {
     align-items: center;
 }
 
-.space-between {
+.flex.space-between {
     justify-content: space-between;
 }
 
@@ -112,43 +74,5 @@ li {
 
 .brick {
     gap: 3px;
-}
-
-/* BG-colors*/
-
-.roof {
-    background-color: blue;
-}
-
-.box-alone {
-    background-color: violet;
-}
-
-.lg-box {
-    background-color: lightblue;
-}
-
-.sm-box {
-    background-color: pink;
-}
-
-.bg-gray {
-    background-color: lightgray;
-}
-
-.bg-green{
-    background-color: green;
-}
-
-.bg-black {
-    background-color: black;
-}
-
-.bg-salmon {
-    background-color: salmon;
-}
-
-.bg-teal {
-    background-color: teal;
 }
 
