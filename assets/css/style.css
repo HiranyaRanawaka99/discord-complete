@@ -76,6 +76,10 @@ a.link,
     text-align: center;
 }
 
+.case {
+    max-width: 100%;
+}
+
 /*BUTTONS*/
 
 .btn {
